@@ -33,6 +33,17 @@ TwilioQuest is always growing and adding new content, but right now, here's some
 
 You can also create your own missions with [TwilioQuest Extensions](https://twilioquest.github.io/extension-docs/).
 
+## Sample workshop plan
+
+- For a 60 minute workshop
+- Schedule
+  - Intro & Operation setup (10 minutes)
+  - Instructor presents 1-2 objectives (variable on which objectives/mission) (20 minutes)
+    - Complete with solutions
+  - Independent study (20 minutes)
+  - Next steps and conclusion (10 minutes)
+- Sections to present/independent work by objective #
+
 ## Preparing for a workshop
 
 ### Installation instructions
@@ -52,3 +63,84 @@ When using TwilioQuest in a workshop setting, it's important to remember that fi
 ### Choose what you are going to teach
 
 TwilioQuest has many different missions and pieces of content available.
+
+- Who are you teaching?
+  - Flow chart of mission selection
+    - Do they know another programming language?
+      - Yes: Javascript test lab
+      - No: Tower of infinite knowledge
+
+- Preparing the mission content
+  - Missions aren't all the same length
+  - Missions may have prerequisites
+  - Missions have different jump off points
+  - Missions may require additional setup
+    - Language missions: start with downloading the language interpreter
+    - Additional accounts:
+      - GitHub in the open source mission
+      - Twilio in API academy and VR
+        - Country: service status in the country
+        - Verification requirements/signup requirements
+      - Postman in API academy
+  - Hidden content in some missions
+  - Knowing the objectives
+    - Knowing the critical path
+    - Sample solutions
+      - Failure cases (what do different TwilioQuest error messages mean)
+    - What are the linked resources in the Objective and Help screen
+    - Objective screen: the todo list for the objective
+    - Help screen: the sample code provided for each objective
+      - VR SMS mission: reply objective, has some ruby sample code in it despite having a JS editor
+  - Structure of mission, order of objectives, linear/non-linear
+    - Map of the map
+  - NPCs - what do they say, how do you complete the conversation trees
+
+Variables effected:
+- Session length (how long is the workshop)
+- Number of facilitators 
+- Experience level of the student
+  - Who are the students
+- Length of pre-session prep for the students
+
+Advice:
+- Read the mission overviews in this guide TODO: make mission overviews
+- Play the mission and make sure it fits their goals
+- How much of the mission can you cover in the time?
+- What do students do after the workshop?
+
+### Preparing to present
+
+Workshop structure - before or after this section?
+
+- Order of objectives
+- What's the goal of each objective
+- What is the key information in objective/help?
+- What can go wrong/what questions might people have?
+
+### Preparing to facilitate
+
+- Familiarize themselves with the example code, the linked resources, and the validators TODO: Document the failure cases for each objective, pull out the linked resources, sample code, and todo lists
+
+### Preparing the students
+
+- When to pre-prologue or not
+  - How long is the workshop
+  - Is it a one off
+
+## Delivering the workshop
+
+### Presenting
+
+- Legibility of multi window/screens
+- Editor setup
+
+### Facilitating the workshop
+
+- Keep an eye on progress/questions: bring people back together if needed
+
+### Using the Operation
+
+- Progress tracking
+- Joining
+- Presenting the operation leaderboard
+- Operation permissions
